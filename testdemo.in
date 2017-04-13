@@ -1,0 +1,49 @@
+# testdemo.in
+#
+# insertions
+#
+I THIS 1
+I IS 2
+I NOT 3
+I ENOUGH 4
+I TEST 5
+I DATA 6
+I ! 7
+#
+# traversal tests - test all 3 traversals forward and reverse
+#
+T 7
+R 7
+#
+# lookup tests
+# 
+L THIS
+L IS
+L NOT
+L ENOUGH
+L TEST
+L DATA
+L !
+#
+# parent tests
+# 
+P THIS
+P IS
+P NOT
+P ENOUGH
+P TEST
+P DATA
+P !
+#
+# erase tests
+#
+E THIS
+E IS
+E NOT
+E ENOUGH
+E TEST
+E DATA
+E !
+#
+# Did you get the message that this is not enough test data?
+#
